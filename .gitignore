@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# local environment (never commit real values; .env.example is the template)
+.env
+.env.*
+!.env.example
+
+# platform folders
+.vercel/
+.netlify/
+
+# misc
+*.log
+*.tsbuildinfo
+.DS_Store
